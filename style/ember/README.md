@@ -2,6 +2,9 @@ Ember
 =====
 
 * Don't put a space between the opening handlebars braces and the variable.
+* Alias local versions of functions from `Ember` and `DS`. These will eventually
+  be moved to JavaScript modules allowing you to only import the functions you
+  require ([sample][local-Ember-DS])
 
 Ember-Data
 ----------
@@ -20,3 +23,4 @@ Testing
 
 [helpers]: sample.js#L10-L11
 [assertions]: sample.js#L13-L17
+[local-Ember-DS]: sample.js#L23-L24

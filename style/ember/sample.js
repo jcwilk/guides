@@ -16,3 +16,13 @@ test("checks the box", function() {
     ok(checkBox.prop("checked"), "box is checked");
   });
 });
+
+import Ember from 'ember';
+import DS from 'ember-data';
+
+const { computed } = Ember;
+const { attr, hasMany, belongsTo } = DS;
+
+export default DS.Model.extend({
+  ...
+});
