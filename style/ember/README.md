@@ -12,6 +12,14 @@ Ember-Data
 
 [relationships]: sample.js#L1-L7
 
+Ember-CLI
+----------
+
+* Prefer `ember-fetch` over `ic-ajax`. 
+  [ember-cli/rfcs#19][ember-fetch]
+
+[ember-fetch]: https://github.com/ember-cli/rfcs/issues/19
+
 Testing
 -------
 
