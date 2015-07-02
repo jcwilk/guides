@@ -16,3 +16,14 @@ test("checks the box", function() {
     ok(checkBox.prop("checked"), "box is checked");
   });
 });
+
+import fetch from 'fetch';
+import Ember from 'ember';
+
+export default Ember.Route.extend({
+  model() {
+    return fetch('/my-cool-end-point.json').then(function(response) {
+      return response.json();
+    });
+  }
+});
