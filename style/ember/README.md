@@ -3,7 +3,7 @@ Ember
 
 * Don't put a space between the opening handlebars braces and the variable.
 * Prefer components over partials.
-* Prefer [ember-fetch] over `ic-ajax`. ([sample][ember-fetch-sample])
+* Prefer [ember-fetch] over ic-ajax. ([sample][ember-fetch-sample])
 
 [ember-fetch]: https://github.com/stefanpenner/ember-fetch
 [ember-fetch-sample]: sample.js#L20-L29
